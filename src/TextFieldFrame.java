@@ -12,6 +12,7 @@ public class TextFieldFrame extends JFrame {
         setTitle("제곱 계산하기");
         ButtonListener listener = new ButtonListener();
         JPanel panel = new JPanel();
+        
         panel.add(new JLabel("숫자입력 : "));
         text = new JTextField(15);
         text.addActionListener(listener);
